@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "Congress-Twitter",
+  "version": "1.0.0",
+  "description": "Extracts Twitter handles of Members of Congress and saves results into CSV file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Gattermeier",
+"repository": "https://github.com/Gattermeier/Congress-Twitter",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.48.0"
+  }
+}
