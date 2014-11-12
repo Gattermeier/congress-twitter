@@ -21,9 +21,10 @@ request({
 function extractTwitter(body) {
     var obj = body.objects;
     Object.keys(obj).forEach(function(key) {
-        if (obj[key].person.twitterid != 'null') {
-            twitterhandles = twitterhandles + ', @'+obj[key].person.twitterid;
+        if (obj[key].person.twitterid !== null) {
+            twitterhandles = twitterhandles + '@'+obj[key].person.twitterid+'\n';
         }
+
     });
     writeTwitterCSV(exporturl, twitterhandles);
 }
