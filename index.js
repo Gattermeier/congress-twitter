@@ -1,6 +1,8 @@
 /**
- * Created by matthias on 11/12/14.
+ * Created by Matthias Gattermeier on 11/12/14.
+ * www.gattermeier.net
  */
+"use strict";
 
 var request = require("request");
 var url = "https://www.govtrack.us/api/v2/role?current=true&limit=600";
