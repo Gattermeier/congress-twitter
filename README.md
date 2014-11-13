@@ -7,4 +7,4 @@ Install:
 npm install
 
 Useage:
-node index.js
+node index.js target.csv
